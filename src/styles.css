@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../src/assets/background.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.mainContainer{
+    width: 60%;
+    height: 80%;
+    border-radius: 30px;
+    background-color: #50006f;
+    border: solid #A78BFA 1px;
+    box-shadow: 10px 7px 10px #230031;
+}
