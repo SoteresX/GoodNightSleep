@@ -8,16 +8,31 @@
 <body>
   <div class="mainContainer">
     <section id="sleepLogsContainer">
-      <ul class="list-none">
-        <li class="sleepEntry mt-2">
-          <div>
-            <p class="ml-4"><time datetime="2025-3-27T00:00">00:00</time> to <time datetime="2025-3-28T10:15">10:15</time></p>
-            <b class="ml-4">10 hours slept</b>
-          </div>
-          <b class="mr-5">8</b>
-        </li>
-        <hr class="text-white mt-2"/>
-      </ul>
+      <div id="sleepLogs">
+
+        <!-- Table Headers -->
+        <h4 class="text-center">Day</h4>
+        <h4>Sleep Score</h4>
+        <h4>Sleep Time</h4>
+        <h4>Wake Up Time</h4>
+      
+        <!-- Example Row -->
+        <div class="contents">
+          <p>Monday</p>
+          <p>8</p>
+          <p>1:53 AM</p>
+          <p>6:24 AM</p>
+        </div>
+        <hr class="col-span-4 text-white"/>
+        
+        <div class="contents">
+          <p>Tuesday</p>
+          <p>7</p>
+          <p>2:10 AM</p>
+          <p>7:00 AM</p>
+        </div>
+        <hr class="col-span-4 text-white"/>
+      </div>
     </section>
   </div>
 </body>
