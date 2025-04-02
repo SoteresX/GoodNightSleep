@@ -31,7 +31,7 @@ body{
 
 #sleepLogs{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     column-gap: 20px;
     row-gap: 10px;
     margin: 10px 10px 0px 10px;
