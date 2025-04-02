@@ -12,8 +12,8 @@ body{
 
 .mainContainer{
     display: grid;
-    grid-template-columns: 400px 200px 200px;
-    grid-template-rows: 400px 100px ;
+    grid-template-columns: 450px 200px 200px;
+    grid-template-rows: 220px 100px ;
     width: 60%;
     height: 80%;
     border-radius: 15px;
@@ -23,12 +23,10 @@ body{
 }
 
 #sleepLogsContainer{
-    border: solid #A78BFA 1px;
+    border: solid #500070 3px;
     box-shadow: 4px 4px 5px #230031;
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #e49fff;
 }
 
 #sleepLogs{
@@ -36,11 +34,16 @@ body{
     grid-template-columns: auto auto auto auto;
     column-gap: 20px;
     row-gap: 10px;
-    margin-top: 10px;
+    margin: 10px 10px 0px 10px;
 }
 
 #sleepLogs p{
     text-align: center;
+}
+
+#editSleepLogsButton{
+    position: relative;
+    left: 400px;
 }
 
 ul{
@@ -48,7 +51,7 @@ ul{
 }
 
 p{
-    color: white;
+    color: black;
 }
 
 b{
@@ -56,5 +59,7 @@ b{
 }
 
 h4{
-    color: #e6bdf7;
+    color: #530068;
+    font-size: 15px;
+    text-align: center;
 }
