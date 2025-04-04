@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root{
+    --boxShadow: 10px 7px 10px #230031, -1px -1px 1px rgb(147, 0, 184);
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -10,21 +14,20 @@ body{
     background-repeat: no-repeat;
 }
 
-.mainContainer{
+#mainContainer{
     display: grid;
     grid-template-columns: 450px 200px 200px;
     grid-template-rows: 220px 100px ;
     width: 60%;
     height: 80%;
     border-radius: 15px;
-    border: solid #A78BFA 1px;
-    box-shadow: 10px 7px 10px #230031;
+    box-shadow: var(--boxShadow);
     background-color: #50006f;   
+    padding: 30px;
 }
 
-#sleepLogsContainer{
-    border: solid #500070 3px;
-    box-shadow: 4px 4px 5px #230031;
+#sleepLogsContainer{ 
+    box-shadow: var(--boxShadow);
     border-radius: 15px;
     background-color: #e49fff;
 }
