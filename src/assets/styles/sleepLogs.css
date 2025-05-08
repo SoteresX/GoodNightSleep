@@ -1,0 +1,22 @@
+#sleepLogsContainer{ 
+    box-shadow: var(--boxShadow);
+    border-radius: var(--borderRadius);
+    background-color: var(--sectionBackgroundColor);
+}
+
+#sleepLogs{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 10px 10px 0px 10px;
+}
+
+#sleepLogs p{
+    text-align: center;
+}
+
+#editSleepLogsButton{
+    position: relative;
+    left: 400px;
+}

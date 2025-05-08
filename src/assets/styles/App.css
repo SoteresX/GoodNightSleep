@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "./sleepLogs.css";
+
+#mainContainer{
+    display: grid;
+    grid-template-columns: 450px 200px 200px;
+    grid-template-rows: 220px 100px ;
+    column-gap: 50px;
+    width: 60%;
+    height: 80%;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+    background-color: #50006f;   
+    padding: 30px;
+}
+
+
+#timeSection{
+    box-shadow: var(--boxShadow);
+    border-radius: var(--borderRadius);
+    background-color: var(--sectionBackgroundColor);
+}
+
